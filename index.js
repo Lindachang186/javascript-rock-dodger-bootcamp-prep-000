@@ -46,7 +46,7 @@ function createRock(x) {
     }
     else {
       rock.remove()
-      ROCKS.length = 0 
+      ROCKS.length = 0
     }
 
     if (checkCollision(rock)) {
