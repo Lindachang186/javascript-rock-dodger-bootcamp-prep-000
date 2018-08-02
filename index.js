@@ -73,6 +73,7 @@ function endGame() {
   }
   window.removeEventListener('keydown', moveDodger)
   alert('You Lose!')
+  start()
 }
 
 var leftUp = false
